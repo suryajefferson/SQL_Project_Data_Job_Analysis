@@ -1,8 +1,8 @@
 /*
 Answer: What are the top skills based on salary?
-- Look at the average salary associated with each skill for Data Analyst positions
+- Look at the average salary associated with each skill for all positions
 - Focuses on roles with specified salaries, particurlarly in india
-- Why? It reveals how different skills impact salary levels for Data Analysts and 
+- Why? It reveals how different skills impact salary levels for different jobs and 
     helps identify the most financially rewarding skills to acquire or improve
 */
 
@@ -16,12 +16,10 @@ FROM
 INNER JOIN skills_job_dim ON skills_job_dim.job_id = job_postings_fact.job_id
 INNER JOIN skills_dim ON skills_dim.skill_id  = skills_job_dim.skill_id
 WHERE 
-    job_title_short = 'Data Analyst' AND
-    job_location LIKE '%India' AND
     salary_year_avg IS NOT NULL
 GROUP BY skills
 HAVING 
-    count(job_postings_fact.job_id) > 10
+    count(job_postings_fact.job_id) > 100
 ORDER BY 
     avg_salary DESC
 LIMIT 25;
