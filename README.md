@@ -257,6 +257,7 @@ LIMIT 5;
 
 <details>
 <summary>Click to toggle contents of "Breakdown and Results"</summary>
+
 #### Breakdown of the most demanded skills for Data Analysts
 - **SQL** and **Excel** remain fundamental, emphasizing the need for strong foundational skills in data processing and spreadsheet manipulation.
 - **Programming** and **Visualization Tools** like **Python**, **Tableau**, and **Power BI** are essential, pointing towards the increasing importance of technical skills in data storytelling and decision support.
@@ -276,6 +277,7 @@ LIMIT 5;
 <details>
 <summary>Click to toggle contents of "Code and details"</summary>
 Exploring the average salaries associated with different skills revealed which skills are the highest paying.
+
 ```sql
 SELECT  
     skills, 
