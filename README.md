@@ -247,7 +247,6 @@ LIMIT 5;
 | Tableau  | 46554        | 97978.08   |
 | Power BI | 39468        | 92323.60   |
 
-*Table of the demand for the top 5 skills in data analyst job postings*
 
 ### 4. Skills Based on Salary
 Exploring the average salaries associated with different skills revealed which skills are the highest paying.
@@ -302,8 +301,6 @@ LIMIT 25;
 | Airflow     | $142,385.8         | 1,506          |
 | TensorFlow  | $142,370.3         | 1,225          |
 
-
-*Table of the average salary for the top 10 paying skills for data analysts*
 
 ### 5. Most Optimal Skills to Learn
 
