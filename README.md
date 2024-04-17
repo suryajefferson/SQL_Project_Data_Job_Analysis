@@ -105,6 +105,113 @@ ORDER BY
 	salary_year_avg DESC;
 ```
 Here's the breakdown of the most demanded skills for the top 10 highest paying data analyst jobs in 2023:
+## Breakdown of Job Listings and Required Skills
+
+1. **Associate Director- Data Insights at AT&T**
+   - Salary: $255,829.5
+   - Location: Anywhere
+   - Skills:
+     - SQL
+     - Python
+     - R
+     - Azure
+     - Databricks
+     - AWS
+     - Pandas
+     - PySpark
+     - Jupyter
+     - Excel
+     - Tableau
+     - Power BI
+     - PowerPoint
+
+2. **Data Analyst, Marketing at Pinterest Job Advertisements**
+   - Salary: $232,423.0
+   - Location: Anywhere
+   - Skills:
+     - SQL
+     - Python
+     - R
+     - Hadoop
+     - Tableau
+
+3. **Data Analyst (Hybrid/Remote) at Uclahealthcareers**
+   - Salary: $217,000.0
+   - Location: Anywhere
+   - Skills:
+     - SQL
+     - Crystal
+     - Oracle
+     - Tableau
+     - Flow
+
+4. **Principal Data Analyst (Remote) at SmartAsset**
+   - Salary: $205,000.0
+   - Location: Anywhere
+   - Skills:
+     - SQL
+     - Python
+     - Go
+     - Snowflake
+     - Pandas
+     - NumPy
+     - Excel
+     - Tableau
+     - GitLab
+
+5. **Director, Data Analyst - HYBRID at Inclusively**
+   - Salary: $189,309.0
+   - Location: Anywhere
+   - Skills:
+     - SQL
+     - Python
+     - Azure
+     - AWS
+     - Oracle
+     - Snowflake
+     - Tableau
+     - Power BI
+     - SAP
+     - Jenkins
+     - Bitbucket
+     - Atlassian
+     - Jira
+     - Confluence
+
+6. **Principal Data Analyst, AV Performance Analysis at Motional**
+   - Salary: $189,000.0
+   - Location: Anywhere
+   - Skills:
+     - SQL
+     - Python
+     - R
+     - Git
+     - Bitbucket
+     - Atlassian
+     - Jira
+     - Confluence
+
+7. **Principal Data Analyst at SmartAsset**
+   - Salary: $186,000.0
+   - Location: Anywhere
+   - Skills:
+     - SQL
+     - Python
+     - Go
+     - Snowflake
+     - Pandas
+     - NumPy
+     - Excel
+     - Tableau
+     - GitLab
+
+8. **ERM Data Analyst at Get It Recruit - Information Technology**
+   - Salary: $184,000.0
+   - Location: Anywhere
+   - Skills:
+     - SQL
+     - Python
+     - R
 
 
 ### 3. In-Demand Skills for Data Analysts
