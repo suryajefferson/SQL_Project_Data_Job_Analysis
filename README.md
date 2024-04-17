@@ -31,7 +31,10 @@ Each query for this project aimed at investigating specific aspects of the data 
 ### 1. Top Paying Data Analyst Jobs
 To identify the highest-paying roles, I filtered data analyst positions by average yearly salary and location, focusing on jobs in India or Work from Home. This query highlights the high paying opportunities in the field.
 
-```sql
+<details>
+<summary>Click to toggle contents of `code`</summary>
+
+``` sql
 SELECT 
     job_postings_fact.job_id,
     job_title,
@@ -51,7 +54,13 @@ ORDER BY
     salary_year_avg DESC
 LIMIT 10;
 ```
- #### Breakdown of the top data analyst job listings
+
+</details>
+
+<details>
+<summary>Click to toggle Breakdown and Results</summary>
+
+#### Breakdown of the top data analyst job listings
 - **Wide Salary Range:** Top 10 paying data analyst roles span from $184,000 to $650,000, indicating significant salary potential in the field.
 - **Diverse Employers:** Companies like SmartAsset, Meta, and AT&T are among those offering high salaries, showing a broad interest across different industries.
 - **Job Title Variety:** There's a high diversity in job titles, from Data Analyst to Director of Analytics, reflecting varied roles and specializations within data analytics.
@@ -69,6 +78,8 @@ LIMIT 10;
 | Principal Data Analyst          | 189000.0        | Motional                    |
 | Principal Data Analyst          | 186000.0        | SmartAsset                  |
 | ERM Data Analyst                | 184000.0        | Get It Recruit              |
+
+</details>
 
 
 
@@ -385,52 +396,3 @@ This project enhanced my SQL skills and provided valuable insights into the data
 
 
 
-<details>
-<summary>Click to toggle contents of `code`</summary>
-
-``` sql
-SELECT 
-    job_postings_fact.job_id,
-    job_title,
-    salary_year_avg,
-    company_dim.name AS company,
-    job_location,
-    job_schedule_type,
-    job_posted_date
-FROM 
-    job_postings_fact
-LEFT JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id
-WHERE 
-    job_title_short = 'Data Analyst' AND 
-    (job_location LIKE '%India' OR job_work_from_home = TRUE) AND
-    salary_year_avg IS NOT NULL
-ORDER BY 
-    salary_year_avg DESC
-LIMIT 10;
-```
-
-</details>
-
-<details>
-<summary>Click to toggle contents of Breakdown</summary>
-
-#### Breakdown of the top data analyst job listings
-- **Wide Salary Range:** Top 10 paying data analyst roles span from $184,000 to $650,000, indicating significant salary potential in the field.
-- **Diverse Employers:** Companies like SmartAsset, Meta, and AT&T are among those offering high salaries, showing a broad interest across different industries.
-- **Job Title Variety:** There's a high diversity in job titles, from Data Analyst to Director of Analytics, reflecting varied roles and specializations within data analytics.
-
-
-| job_title                       | salary_year_avg | company                     |
-|---------------------------------|-----------------|-----------------------------|
-| Data Analyst                    | 650000.0        | Mantys                      |
-| Director of Analytics           | 336500.0        | Meta                        |
-| Associate Director Data Insights| 255829.5        | AT&T                        |
-| Data Analyst, Marketing         | 232423.0        | Pinterest Job Advertisements|
-| Data Analyst (Hybrid/Remote)    | 217000.0        | Uclahealthcareers           |
-| Principal Data Analyst (Remote) | 205000.0        | SmartAsset                  |
-| Director, Data Analyst - HYBRID | 189309.0        | Inclusively                 |
-| Principal Data Analyst          | 189000.0        | Motional                    |
-| Principal Data Analyst          | 186000.0        | SmartAsset                  |
-| ERM Data Analyst                | 184000.0        | Get It Recruit              |
-
-</details>
