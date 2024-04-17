@@ -82,13 +82,11 @@ LIMIT 10;
 
 </details>
 
-
-
-
 ### 2. Skills for Top Paying Jobs
 <details>
 <summary>Click to toggle contents of "Code and detailes"</summary>
 To understand what skills are required for the top-paying jobs, I joined the job postings with the skills data, providing insights into what employers value for high-compensation roles.
+
 ```sql
 WITH top_jobs AS (
     SELECT 
