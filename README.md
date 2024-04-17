@@ -33,7 +33,8 @@ Each query for this project aimed at investigating specific aspects of the data 
 
 <details>
 <summary>Click to toggle contents of "Code and details"</summary>
-To identify the highest-paying roles, I filtered data analyst positions by average yearly salary and location, focusing on jobs in India or Work from Home. This query highlights the high paying opportunities in the field.
+
+**To** identify the highest-paying roles, I filtered data analyst positions by average yearly salary and location, focusing on jobs in India or Work from Home. This query highlights the high paying opportunities in the field.
 
 ``` sql
 SELECT 
@@ -84,7 +85,8 @@ LIMIT 10;
 
 <details>
 <summary>Click to toggle contents of "Code and details"</summary>
-To understand what skills are required for the top-paying jobs, I joined the job postings with the skills data, providing insights into what employers value for high-compensation roles.
+
+**To** understand what skills are required for the top-paying jobs, I joined the job postings with the skills data, providing insights into what employers value for high-compensation roles.
 
 ```sql
 WITH top_jobs AS (
@@ -234,7 +236,8 @@ ORDER BY
 ### 3. In-Demand Skills for Data Analysts
 <details>
 <summary>Click to toggle contents of "Code and details"</summary>
-This query helped identify the skills most frequently requested in job postings, directing focus to areas with high demand.
+
+**This** query helped identify the skills most frequently requested in job postings, directing focus to areas with high demand.
 
 ```sql
 SELECT 
@@ -276,7 +279,8 @@ LIMIT 5;
 
 <details>
 <summary>Click to toggle contents of "Code and details"</summary>
-Exploring the average salaries associated with different skills revealed which skills are the highest paying.
+
+**Exploring** the average salaries associated with different skills revealed which skills are the highest paying.
 
 ```sql
 SELECT  
@@ -341,7 +345,7 @@ LIMIT 25;
 <details>
 <summary>Click to toggle contents of "Code and details"</summary>
 
-Combining insights from demand and salary data, this query aimed to pinpoint skills that are both in high demand and have high salaries, offering a strategic focus for skill development.
+**Combining** insights from demand and salary data, this query aimed to pinpoint skills that are both in high demand and have high salaries, offering a strategic focus for skill development.
 
 ```sql
 SELECT 
