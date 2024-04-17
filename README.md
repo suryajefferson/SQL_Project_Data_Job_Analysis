@@ -58,7 +58,7 @@ LIMIT 10;
 </details>
 
 <details>
-<summary>Click to toggle Breakdown and Results</summary>
+<summary>Click to toggle **Breakdown and Results** </summary>
 
 #### Breakdown of the top data analyst job listings
 - **Wide Salary Range:** Top 10 paying data analyst roles span from $184,000 to $650,000, indicating significant salary potential in the field.
