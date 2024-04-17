@@ -1,15 +1,15 @@
-# Introduction
+## Introduction
 📊 Dive into the data job market! Focusing on data analyst roles, this project explores 💰 top-paying jobs, 🔥 in-demand skills, and 📈 where high demand meets high salary in data analytics.
 
 🔍 SQL queries? Check them out here: [project_sql folder](/SQL_Project/)
 
-# Background
+## Background
 Driven by a quest to navigate the data analyst job market more effectively, this project was born from a desire to pinpoint top-paid and in-demand skills, streamlining others work to find optimal jobs.
 
 Data hails from 
 It's packed with insights on job titles, salaries, locations, and essential skills.
 
-### The questions I wanted to answer through my SQL queries were:
+#### The questions I wanted to answer through my SQL queries were:
 
 1. What are the top-paying data analyst jobs?
 2. What skills are required for these top-paying jobs?
@@ -17,7 +17,7 @@ It's packed with insights on job titles, salaries, locations, and essential skil
 4. Which skills are associated with higher salaries?
 5. What are the most optimal skills to learn?
 
-# Tools I Used
+## Tools I Used
 For my deep dive into the data analyst job market, I harnessed the power of several key tools:
 
 - **SQL:** The backbone of my analysis, allowing me to query the database and unearth critical insights.
@@ -25,7 +25,7 @@ For my deep dive into the data analyst job market, I harnessed the power of seve
 - **Visual Studio Code:** My go-to for database management and executing SQL queries.
 - **Git & GitHub:** Essential for version control and sharing my SQL scripts and analysis, ensuring collaboration and project tracking.
 
-# The Analysis
+## The Analysis
 Each query for this project aimed at investigating specific aspects of the data analyst job market. Here’s how I approached each question:
 
 ### 1. Top Paying Data Analyst Jobs
@@ -399,7 +399,7 @@ LIMIT 10;
 | Oracle    | 11           | $104,260           |
 </details>
 
-# What I Learned
+## What I Learned
 
 Throughout this adventure, I've turbocharged my SQL toolkit with some serious firepower:
 
@@ -407,7 +407,7 @@ Throughout this adventure, I've turbocharged my SQL toolkit with some serious fi
 - **📊 Data Aggregation:** Got cozy with GROUP BY and turned aggregate functions like COUNT() and AVG() into my data-summarizing sidekicks.
 - **💡 Analytical Wizardry:** Leveled up my real-world puzzle-solving skills, turning questions into actionable, insightful SQL queries.
 
-# Conclusions
+## Conclusions
 
 ### Insights
 From the analysis, several general insights emerged:
