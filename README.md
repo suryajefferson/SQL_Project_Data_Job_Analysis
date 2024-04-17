@@ -32,7 +32,7 @@ Each query for this project aimed at investigating specific aspects of the data 
 
 
 <details>
-<summary>Click to toggle contents of `Code` and detailes</summary>
+<summary>Click to toggle contents of "Code and detailes"</summary>
 To identify the highest-paying roles, I filtered data analyst positions by average yearly salary and location, focusing on jobs in India or Work from Home. This query highlights the high paying opportunities in the field.
 
 ``` sql
@@ -59,7 +59,7 @@ LIMIT 10;
 </details>
 
 <details>
-<summary>Click to toggle **Breakdown and Results** </summary>
+<summary>Click to toggle "Breakdown and Results" </summary>
 
 #### Breakdown of the top data analyst job listings
 - **Wide Salary Range:** Top 10 paying data analyst roles span from $184,000 to $650,000, indicating significant salary potential in the field.
@@ -86,6 +86,8 @@ LIMIT 10;
 
 
 ### 2. Skills for Top Paying Jobs
+<details>
+<summary>Click to toggle contents of "Code and detailes"</summary>
 To understand what skills are required for the top-paying jobs, I joined the job postings with the skills data, providing insights into what employers value for high-compensation roles.
 ```sql
 WITH top_jobs AS (
@@ -116,6 +118,10 @@ INNER JOIN skills_dim ON skills_dim.skill_id = skills_job_dim.skill_id
 ORDER BY 
 	salary_year_avg DESC;
 ```
+<details>
+
+<details>
+<summary>Click to toggle contents of "Breakdown and Results"</summary>
 
 #### Breakdown of Job Listings and Required Skills
 
@@ -224,9 +230,12 @@ ORDER BY
      - SQL
      - Python
      - R
-
+<details>
 
 ### 3. In-Demand Skills for Data Analysts
+
+<details>
+<summary>Click to toggle contents of "Code and detailes"</summary>
 
 This query helped identify the skills most frequently requested in job postings, directing focus to areas with high demand.
 
@@ -247,6 +256,11 @@ ORDER BY
 		no_of_jobs DESC
 LIMIT 5;
 ```
+<details>
+
+<details>
+<summary>Click to toggle contents of "Breakdown and Results"</summary>
+
 #### Breakdown of the most demanded skills for Data Analysts
 - **SQL** and **Excel** remain fundamental, emphasizing the need for strong foundational skills in data processing and spreadsheet manipulation.
 - **Programming** and **Visualization Tools** like **Python**, **Tableau**, and **Power BI** are essential, pointing towards the increasing importance of technical skills in data storytelling and decision support.
@@ -258,9 +272,13 @@ LIMIT 5;
 | Python   | 57326        | 101511.85  |
 | Tableau  | 46554        | 97978.08   |
 | Power BI | 39468        | 92323.60   |
+<details>
 
 
 ### 4. Skills Based on Salary
+
+<details>
+<summary>Click to toggle contents of "Code and detailes"</summary>
 Exploring the average salaries associated with different skills revealed which skills are the highest paying.
 ```sql
 SELECT  
@@ -280,6 +298,11 @@ ORDER BY
     avg_salary DESC
 LIMIT 25;
 ```
+<details>
+
+<details>
+<summary>Click to toggle contents of "Breakdown and Results"</summary>
+
 #### Breakdown of Skills, Demand, and Salary Statistics:
 
 1. **High Demand for Database & Big Data Technologies:**
@@ -313,8 +336,13 @@ LIMIT 25;
 | Airflow     | $142,385.8         | 1,506          |
 | TensorFlow  | $142,370.3         | 1,225          |
 
+<details>
+
 
 ### 5. Most Optimal Skills to Learn
+
+<details>
+<summary>Click to toggle contents of "Code and detailes"</summary>
 
 Combining insights from demand and salary data, this query aimed to pinpoint skills that are both in high demand and have high salaries, offering a strategic focus for skill development.
 
@@ -340,6 +368,10 @@ ORDER BY
     avg_salary DESC
 LIMIT 10;
 ```
+<details>
+
+<details>
+<summary>Click to toggle contents of "Breakdown and Results"</summary>
 
 #### Breakdown of Skills, Demand, and Salary Statistics
 
@@ -370,7 +402,7 @@ LIMIT 10;
 | AWS       | 12           | $195,333           |
 | Spark     | 11           | $118,332           |
 | Oracle    | 11           | $104,260           |
-
+<details>
 
 # What I Learned
 
