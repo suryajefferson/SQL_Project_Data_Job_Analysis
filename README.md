@@ -162,22 +162,39 @@ ORDER BY
     avg_salary DESC
 LIMIT 25;
 ```
-Here's a breakdown of the results for top paying skills for Data Analysts:
+#### Breakdown of Skills, Demand, and Salary Statistics:
 
+1. **High Demand for Database & Big Data Technologies:**
+   - Skills like **MongoDB**, **Cassandra**, and **Neo4j** are in demand, with substantial numbers of job openings.
+   - Technologies such as **Kafka** and **Spark** are also highly sought after, as indicated by the large number of job postings.
+   - Proficiency in these database and big data technologies is reflected in the competitive average salaries.
 
-| Skills        | Average Salary ($)  |no of jobs
-|---------------|-------------------: |---------
-| mongo         |            170714.9 | 262
-| cassandra     |            154124.3 | 530
-| neo4j         |            147707.9 | 123
-| scala         |            145119.5 | 1912
-| kafka         |            144753.8 | 1642
-| pytorch       |            144470.1 | 1081
-| shell         |            143370.2 | 731
-| golang        |            143138.7 | 109
-| airflow       |            142385.8 | 1506
-| tensorflow    |            142370.3 | 1225
-| spark         |            141733.5 | 4025
+2. **Emphasis on Programming Languages & Frameworks:**
+   - **Scala** and **Python** frameworks like **PyTorch** are highly valued, with significant numbers of job openings.
+   - Proficiency in programming languages such as **Golang** is also recognized, albeit with fewer job openings compared to others.
+
+3. **Importance of Data Processing & Workflow Management:**
+   - Tools like **Airflow** are essential for workflow management and automation in data processing, as indicated by the considerable number of job postings.
+   - **Shell scripting** skills remain relevant, reflecting the need for automation and scripting in data-related tasks.
+
+4. **Machine Learning & AI Frameworks:**
+   - Skills in machine learning frameworks like **PyTorch** and **TensorFlow** command competitive salaries, reflecting the demand for expertise in AI and machine learning.
+
+#### Breakdown by Skill and Job Statistics
+
+| Skill       | Average Salary ($) | Number of Jobs |
+|-------------|--------------------|----------------|
+| MongoDB     | $170,714.9         | 262            |
+| Cassandra   | $154,124.3         | 530            |
+| Neo4j       | $147,707.9         | 123            |
+| Scala       | $145,119.5         | 1,912          |
+| Kafka       | $144,753.8         | 1,642          |
+| PyTorch     | $144,470.1         | 1,081          |
+| Shell       | $143,370.2         | 731            |
+| Golang      | $143,138.7         | 109            |
+| Airflow     | $142,385.8         | 1,506          |
+| TensorFlow  | $142,370.3         | 1,225          |
+
 
 *Table of the average salary for the top 10 paying skills for data analysts*
 
@@ -208,26 +225,37 @@ ORDER BY
 LIMIT 10;
 ```
 
-| Skills     | Demand Count | Average Salary ($) |
-|------------|--------------|-------------------:|
-| sql        | 46           |            92984 |
-| excel      | 39           |            88519 |
-| python     | 36           |            95933 |
-| tableau    | 20           |            95103 |
-| r          | 18           |            86609 |
-| power bi   | 17           |            109832|
-| azure      | 15           |            98570 |
-| aws        | 12           |            195333|
-| spark      | 11           |            118332|
-| oracle     | 11           |            104260|
+#### Breakdown of Skills, Demand, and Salary Statistics
 
-*Table of the most optimal skills for data analyst sorted by salary*
+1. **Proficiency in Fundamental Tools:**
+   - Skills like **SQL**, **Excel**, and **Python** are foundational, with a significant number of job postings.
+   - **Excel** and **Python** skills are particularly prevalent, indicating their widespread use across various industries.
 
-Here's a breakdown of the most optimal skills for Data Analysts in 2023: 
-- **High-Demand Programming Languages:** 
-- **Cloud Tools and Technologies:** S
-- **Business Intelligence and Visualization Tools:** 
-- **Database Technologies:** 
+2. **Visualization and Analytics Tools:**
+   - Tools like **Tableau** and **Power BI** are essential for data visualization and analytics, with competitive average salaries.
+
+3. **Programming and Database Technologies:**
+   - **R** and **Spark** skills demonstrate proficiency in statistical analysis and big data processing, respectively.
+   - Knowledge of **Oracle** and **SQL** databases remains valuable, with a considerable demand in the market.
+
+4. **Cloud Platforms and Services:**
+   - Proficiency in cloud platforms such as **Azure** and **AWS** is increasingly important, with higher average salaries indicating their significance in the industry.
+
+#### Breakdown by Skill, Demand Count, and Average Salary
+
+| Skill     | Demand Count | Average Salary ($) |
+|-----------|--------------|--------------------|
+| SQL       | 46           | $92,984            |
+| Excel     | 39           | $88,519            |
+| Python    | 36           | $95,933            |
+| Tableau   | 20           | $95,103            |
+| R         | 18           | $86,609            |
+| Power BI  | 17           | $109,832           |
+| Azure     | 15           | $98,570            |
+| AWS       | 12           | $195,333           |
+| Spark     | 11           | $118,332           |
+| Oracle    | 11           | $104,260           |
+
 
 # What I Learned
 
