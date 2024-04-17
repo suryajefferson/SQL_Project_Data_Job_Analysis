@@ -26,4 +26,4 @@ HAVING
 ORDER BY 
     no_of_jobs DESC,
     avg_salary DESC
-LIMIT 25;
+LIMIT 10;
