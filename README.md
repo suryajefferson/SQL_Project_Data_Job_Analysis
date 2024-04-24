@@ -1,9 +1,9 @@
-### Introduction
+## Introduction
 📊 Dive into the data job market! Focusing on data analyst roles, this project explores 💰 top-paying jobs, 🔥 in-demand skills, and 📈 where high demand meets high salary in data analytics.
 
 🔍 SQL queries? Check them out here: [project_sql folder](/SQL_Project/)
 
-### Background
+## Background
 Driven by a quest to navigate the data analyst job market more effectively, this project was born from a desire to pinpoint top-paid and in-demand skills, streamlining others work to find optimal jobs.
 
 Data hails from 
@@ -17,7 +17,7 @@ It's packed with insights on job titles, salaries, locations, and essential skil
 4. Which skills are associated with higher salaries?
 5. What are the most optimal skills to learn?
 
-### Tools I Used
+## Tools I Used
 For my deep dive into the data analyst job market, I harnessed the power of several key tools:
 
 - **SQL:** The backbone of my analysis, allowing me to query the database and unearth critical insights.
@@ -413,7 +413,7 @@ Throughout this adventure, I've turbocharged my SQL toolkit with some serious fi
 - **📊 Data Aggregation:** Got cozy with GROUP BY and turned aggregate functions like COUNT() and AVG() into my data-summarizing sidekicks.
 - **💡 Analytical Wizardry:** Leveled up my real-world puzzle-solving skills, turning questions into actionable, insightful SQL queries.
 
-### Conclusions
+## Conclusions
 
 #### Insights
 From the analysis, several general insights emerged:
