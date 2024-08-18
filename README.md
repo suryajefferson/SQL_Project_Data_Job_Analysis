@@ -134,7 +134,7 @@ CREATE INDEX idx_job_id ON public.skills_job_dim (job_id);
 </details>
 
 ## Schema Diagram
-![figure](/SQL_Project_Data_Job_Analysis/Images/Schema%20Diagram.png)
+![figure](/Images/Schema%20Diagram.png)
 ## Loading the Data
 - In PostgresSQL > PgAdmin4 > PSQL Tool, using these commands to insert data from csv files to database
 ### **Code**
