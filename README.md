@@ -6,18 +6,7 @@ Interested in the SQL queries used in this project? You can find them here: [pro
 This project was developed to help better understand the data analyst job market, with the goal of identifying top-paying and in-demand skills. The data used in this analysis provides valuable insights into job titles, salaries, locations, and essential skills, helping others streamline their job search in the data analytics field.
 
 # The Questions
-## The questions I wanted to answer through my SQL queries were:
-1
-    a.Finding the number of job postings per job title
-    b.Finding the number of job postings for data analyst in India per Quarter in 2023
-    c.Finding the no of job postings for data analyst per location
-2. What are the top-paying data analyst jobs?
-3. What skills are required for these top-paying jobs?
-4. What skills are most in demand for data analysts?
-5. Which skills are associated with higher salaries?
-6. What are the most optimal skills to learn?
-7. Retrieving job listings from the company with the most openings for data analyst and data engineer roles
-## The questions I wanted to answer through my SQL queries were:
+### The questions I wanted to answer through my SQL queries were:
 
 1. **Finding the number of job postings:**
     - a. per job title
@@ -143,8 +132,9 @@ CREATE INDEX idx_job_id ON public.skills_job_dim (job_id);
 ```
 
 </details>
+
 ## Schema Diagram
-![figure](/Images/Schema Diagram.png)
+![figure](/SQL_Project_Data_Job_Analysis/Images/Schema%20Diagram.png)
 ## Loading the Data
 - In PostgresSQL > PgAdmin4 > PSQL Tool, using these commands to insert data from csv files to database
 ### **Code**
