@@ -154,6 +154,7 @@ CREATE INDEX idx_job_id ON public.skills_job_dim (job_id);
 ```
 
 </details>
+
 # Anslysis
 ## 1
 ### **a**. Finding the number of job postings per job title
