@@ -1,11 +1,3 @@
-/*
-Answer: What are the top skills based on salary?
-- Look at the average salary associated with each skill for all positions
-- Focuses on roles with specified salaries, particurlarly in india
-- Why? It reveals how different skills impact salary levels for different jobs and 
-    helps identify the most financially rewarding skills to acquire or improve
-*/
-
 
 SELECT  
     skills, 
@@ -22,4 +14,4 @@ HAVING
     count(job_postings_fact.job_id) > 100
 ORDER BY 
     avg_salary DESC
-LIMIT 25;
+LIMIT 10;
