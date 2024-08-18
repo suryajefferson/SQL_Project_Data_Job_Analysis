@@ -158,6 +158,7 @@ CREATE INDEX idx_job_id ON public.skills_job_dim (job_id);
 # Anslysis
 ## 1
 ### **a**. Finding the number of job postings per job title
+
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.45em;">Detailed Question</span></summary>
 
@@ -168,6 +169,7 @@ CREATE INDEX idx_job_id ON public.skills_job_dim (job_id);
 </details>
 
 ### **Code**
+
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.45em;">Code</span></summary>
 
@@ -183,7 +185,9 @@ ORDER BY
     no_of_jobs DESC;
 ```
 </details>
+
 ### **Results and Insights**
+
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.45em;">Results</span></summary>
 
@@ -222,6 +226,7 @@ ORDER BY
 
 
 </details>
+
 ### **b**. Finding the number of job postings for ‘Data Analyst’ in India per Quarter in 2023
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.45em;">Detailed Question</span></summary>
@@ -231,8 +236,11 @@ ORDER BY
 - **Details:**
     - Find the number of job postings for *Data Analyst* in India, broken down by quarter for the year 2023.
 - **Why?** This helps analyze trends in job postings for *Data Analyst* roles throughout the year, providing insights into seasonal hiring patterns.
+
 </details>
+
 ### **Code**
+
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.45em;">Code</span></summary>
 
@@ -256,7 +264,9 @@ GROUP BY
 ```
 
 </details>
+
 ### **Results and Insights**
+
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.45em;">Results</span></summary>
 
@@ -268,6 +278,7 @@ GROUP BY
 | 44953 | Q4 |
 
 </details>
+
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.45em;">Insights</span></summary>
 
@@ -280,6 +291,7 @@ GROUP BY
 </details>
 
 ### **c**. Finding the no of job postings for ‘Data Analyst’ per location
+
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.45em;">Detailed Question</span></summary>
 
@@ -288,9 +300,11 @@ GROUP BY
 - **Details:**
     - Count the number of job postings for *Data Analyst* roles by location.
 - **Why?** This provides insight into geographical demand for *Data Analyst* roles, helping job seekers understand where opportunities are concentrated.
+
 </details>
 
 ### **Code**
+
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.45em;">Code</span></summary>
 
@@ -314,6 +328,7 @@ ORDER BY no_of_jobs DESC;
 </details>
 
 ### **Results and Insights**
+
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.45em;">Results</span></summary>
 
@@ -336,8 +351,10 @@ ORDER BY no_of_jobs DESC;
 
 
 </details>
+
 ## 2
 ### Top 10 highest paying data analyst job details with company names in India or work from home 
+
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.15em;">Detailed Question </span></summary>
 
@@ -348,9 +365,11 @@ ORDER BY no_of_jobs DESC;
     - Focus on job postings with specified salaries (remove nulls).
     - Include the company names of the top 10 roles.
 - **Why?** Highlight the top-paying opportunities for *Data Analysts*, offering insights into employment options and location flexibility.
+
 </details>
 
 ### **Code**
+
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.45em;">Code</span></summary>
 
@@ -378,6 +397,7 @@ LIMIT 10;
 </details>
 
 ### **Results and Insights**
+
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.15em;">Results</span></summary>
 
@@ -429,9 +449,11 @@ LIMIT 10;
     - Use the top 10 highest-paying *Data Analyst* jobs from the first query.
     - Add the specific skills required for these roles.
 - **Why?** It provides a detailed look at which high-paying jobs demand certain skills, helping job seekers understand which skills to develop that align with top salaries.
+
 </details>
 
 ### **Code**
+
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.45em;">Code</span></summary>
 
@@ -466,7 +488,9 @@ ORDER BY
 ```
 
 </details>
+
 ### **Results and Insights**
+
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.45em;">Results</span></summary>
 
@@ -505,6 +529,7 @@ ORDER BY
 
 ## 4
 ### Top 5 demanded skills for Data Analyst jobs all over the world based on no of jobs
+
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.45em;">Detailed Question</span></summary>
 
@@ -518,6 +543,7 @@ ORDER BY
 </details>
 
 ### **Code**
+
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.45em;">Code</span></summary>
 
@@ -540,6 +566,7 @@ LIMIT 5;
 ```
 
 </details>
+
 ### **Results and Insights**
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.45em;">Results</span></summary>
@@ -553,6 +580,7 @@ LIMIT 5;
 | power bi | 39468 | 92323.60 |
 
 </details>
+
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.45em;">Insights</span></summary>
 
@@ -567,6 +595,7 @@ LIMIT 5;
 
 ## 5
 ### Top 10 paying skills  for all jobs, all over the world  based on salary (skills with min of at least 100 jobs)
+
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.45em;">Detailed Question</span></summary>
 
@@ -580,6 +609,7 @@ LIMIT 5;
 </details>
 
 ### **Code**
+
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.45em;">Code</span></summary>
 
@@ -603,6 +633,7 @@ LIMIT 10;
 ```
 
 </details>
+
 ### **Results and Insights**
 
 <details>
@@ -639,6 +670,7 @@ LIMIT 10;
 
 
 </details>
+
 ## 6
 ### Top 10 optimal skills for Data Analyst In india (optimal = high demand + high avg salary)
 <details>
@@ -652,6 +684,7 @@ LIMIT 10;
 - **Why?** Understanding these skills can guide career development by ensuring job security and maximizing financial benefits in the data analysis field.
 
 </details>
+
 ### **Code**
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.45em;">Code</span></summary>
@@ -680,7 +713,9 @@ LIMIT 10;
 ```
 
 </details>
+
 ### **Results and Insights**
+
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.45em;">Results</span></summary>
 
@@ -717,6 +752,7 @@ LIMIT 10;
 
 ## 7
 ### Find the company with highest job postings in india for data analyst and data engineer and get the details of all job postings offered by that company
+
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.45em;">Detailed Question </span></summary>
 
@@ -725,9 +761,11 @@ LIMIT 10;
     - Identify the company with the most job postings for *Data Analyst* and *Data Engineer* roles in India.
     - Retrieve all job postings by this company, including job title, salary, and location.
 - **Why?** This provides insight into the leading employer in the data analytics and engineering field in India, helping job seekers target companies with the most opportunities in these roles.
+
 </details>
 
 ### **Code**
+
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.45em;">Method 1</span></summary>
 
@@ -755,6 +793,7 @@ WHERE company_id = (SELECT hhh FROM top_company)
 ORDER BY salary_year_avg DESC;
 ```
 </details>
+
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.45em;">Method 2</span></summary>
 
@@ -803,7 +842,9 @@ WHERE
     AND salary_year_avg IS NOT NULL;
 ```
 </details>
+
 ### **Results and Insights**
+
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.45em;">Results</span></summary>
 
@@ -833,6 +874,7 @@ WHERE
 | 210 | Visa | Staff Data Engineer | 79200.0 | Bengaluru, Karnataka, India |
 
 </details>
+
 <details>
 <summary style="font-size: 1.em;">click for <span style="font-size: 1.45em;">Insights</span></summary>
 
@@ -849,6 +891,7 @@ WHERE
 - *Principal Data Engineer* and *Financial Data Analyst* roles have comparatively lower salaries, with the *Principal Data Engineer* earning 93,600.0 and *Financial Data Analyst* earning 79,200.0.
 
 </details>
+
 # Overall Insights
 **Job Demand**
 
