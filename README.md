@@ -996,6 +996,8 @@ For advanced SQL: i utilized common table expressions (ctes) for clearer complex
 I observed great insights into the data job market like job demand, job distribution, salaries, skills, etc.
 
 This project provided a comprehensive understanding of database setup, query performance, and data-driven insights into job trends and salaries in the data industry.
+
+
 `End`
 ---
 ---
