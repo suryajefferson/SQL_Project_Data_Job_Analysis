@@ -974,8 +974,13 @@ WHERE
    - Extracted information from dates to sort and analyze by month or quarter.
 
 5. **Advanced SQL**
-   - Used CTEs to make complex queries easier to read.
-   - Joined tables to combine information and get detailed results.
+- *CTEs:* Simplified complex queries for better readability.
+- *Table Manipulation:* Managed tables with creation, insertion, alteration, and deletion.
+- *Joins:* Combined tables for detailed insights.
+- *Date Functions:* Handled time zones and extracted date parts.
+- *Subqueries:* Nested queries for advanced filtering and conditions.
+- *UNION:* Merged results from multiple queries.
+- *CASE Statements:* Added conditional logic within queries.
 
 6. **Data Analysis**
    - Created tables for data from specific months and used them for reports.
